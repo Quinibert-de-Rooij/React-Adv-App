@@ -194,7 +194,7 @@ export const AddEventForm = () => {
                 <HStack>
                   <Checkbox
                     label="sports"
-                    value={isSports}
+                    isChecked={isSports}
                     onChange={handleCheckedSports}
                     colorScheme="red"
                   >
@@ -202,7 +202,7 @@ export const AddEventForm = () => {
                   </Checkbox>
                   <Checkbox
                     label="games"
-                    value={isGames}
+                    isChecked={isGames}
                     onChange={handleCheckedGames}
                     colorScheme="yellow"
                   >
@@ -210,7 +210,7 @@ export const AddEventForm = () => {
                   </Checkbox>
                   <Checkbox
                     label="relaxation"
-                    value={isRelaxation}
+                    isChecked={isRelaxation}
                     onChange={handleCheckedRelaxation}
                     colorScheme="green"
                   >
