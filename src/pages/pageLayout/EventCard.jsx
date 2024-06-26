@@ -36,7 +36,7 @@ export const EventCard = ({ eventItem }) => {
         <Image
           boxSize={"300px"}
           src={eventItem.image}
-          alt="Recipe Image"
+          alt="Event Image"
           borderRadius="lg"
         />
         <Stack spacing="1">
